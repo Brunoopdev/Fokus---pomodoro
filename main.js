@@ -20,7 +20,7 @@ const musicaPlay = new Audio('./sons/play.wav');
 const musicaPause = new Audio('./sons/pause.mp3');
 const musicaZerado = new Audio('./sons/beep.mp3');
 
-let tempoDecorridoEmSegundos = 10;
+let tempoDecorridoEmSegundos = 1500;
 let intervaloId = null;
 
 // funções de clique para mudar a imagem e a cor de fundo.
